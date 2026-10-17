@@ -1,4 +1,5 @@
 # i3-tudor
+# Note : This might need additional troubleshooting (it is not tested)
 My i3 dotfiles with polybar, dunst, picom, rofi.
 
 1. Install the required dependencies : i3, picom, dunst, rofi, polybar, flameshot, thunar, alacritty, quickshell.
