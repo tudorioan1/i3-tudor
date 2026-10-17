@@ -2,7 +2,7 @@
 #### Note : This might need additional troubleshooting.
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b1bb752f-12ba-4bb1-8c92-d0b38c35cc83" />
 
-1. Install the required dependencies : i3, picom, dunst, rofi, polybar, flameshot, thunar, alacritty, quickshell, xdotool, feh, JetBrainsMono Nerd Font, Material Icons + Feather fonts (bundled in `polybar-i3/fonts`).
+1. Install the required dependencies : i3, picom, dunst, rofi, polybar, flameshot, thunar, alacritty, quickshell, xdotool, i3lock-color, feh, JetBrainsMono Nerd Font, Material Icons + Feather fonts (bundled in `polybar-i3/fonts`).
 2. Clone the repository anywhere (for example `~/i3-tudor`):
 
    ```bash
@@ -36,6 +36,7 @@ If polybar isn't starting automatically, test polybar manually (errors are print
 | <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>1-9</kbd> | Move window to tag |
 | <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> | Quit i3 session |
 | <kbd>SUPER</kbd> + <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Power menu |
+| <kbd>SUPER</kbd> + <kbd><D</kbd> | Lock screen with i3lock |
 ---
 
 Launch i3 from your display manager (SDDM, GDM, LightDM, Ly etc.) and enjoy.
