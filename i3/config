@@ -57,7 +57,7 @@ exec --no-startup-id sh -c 'for agent in \
         break; \
     fi; \
 done'
-exec --no-startup-id "./.config/i3/polybar-i3/launch.sh"
+exec --no-startup-id "$HOME/.config/i3/polybar-i3/launch.sh"
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
