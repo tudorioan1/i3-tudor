@@ -36,7 +36,7 @@ If polybar isn't starting automatically, test polybar manually (errors are print
 | <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>1-9</kbd> | Move window to tag |
 | <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> | Quit i3 session |
 | <kbd>SUPER</kbd> + <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Power menu |
-| <kbd>SUPER</kbd> + <kbd><D</kbd> | Lock screen with i3lock |
+| <kbd>SUPER</kbd> + <kbd>D</kbd> | Lock screen with i3lock |
 ---
 
 Launch i3 from your display manager (SDDM, GDM, LightDM, Ly etc.) and enjoy.
