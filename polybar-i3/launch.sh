@@ -8,7 +8,7 @@ if pgrep -u $UID -x polybar >/dev/null 2>&1; then
     while pgrep -u $UID -x polybar >/dev/null; do sleep 0.2; done
 fi
 
-# Determine config path: prefer ~/.config/polybar (installed), fallback to repo location
+# Determine config path: prefer ~/.config/i3/polybar-i3 (installed), fallback to repo location
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 if [ -f "$HOME/.config/i3/polybar-i3/themes/$THEME/config.ini" ]; then
     CONFIG_DIR="$HOME/.config/i3/polybar-i3"
