@@ -34,7 +34,6 @@ If polybar isn't starting automatically, test polybar manually (errors are print
 | <kbd>SUPER</kbd> + <kbd>Q</kbd> | Close window |
 | <kbd>SUPER</kbd> + <kbd>1-9</kbd> | Switch to tag (workspace) |
 | <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>1-9</kbd> | Move window to tag |
-| <kbd>SUPER</kbd> + <kbd>Space</kbd> | Toggle floating |
 | <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> | Quit i3 session |
 | <kbd>SUPER</kbd> + <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Power menu |
 ---
