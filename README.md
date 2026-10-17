@@ -1,6 +1,6 @@
 # i3-tudor
-# Note : This might need additional troubleshooting (it is not tested)
-My i3 dotfiles with polybar, dunst, picom, rofi.
+# Note : This might need additional troubleshooting.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b1bb752f-12ba-4bb1-8c92-d0b38c35cc83" />
 
 1. Install the required dependencies : i3, picom, dunst, rofi, polybar, flameshot, thunar, alacritty, quickshell, xdotool, feh, JetBrainsMono Nerd Font, Material Icons + Feather fonts (bundled in `polybar-i3/fonts`).
 2. Clone the repository anywhere (for example `~/i3-tudor`):
