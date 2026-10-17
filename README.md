@@ -20,11 +20,23 @@
             ~/.config/i3/polybar-i3/scripts/weather/weather.sh ~/.config/i3/lock \
             ~/.config/rofi/powermenu.sh ~/.config/quickshell/wallpaper-picker/toggle.sh
    ```
-
-4. Test the bar manually (errors are printed in the terminal):
+If polybar isn't starting automatically, test polybar manually (errors are printed in the terminal):
 
    ```bash
    ~/.config/i3/polybar-i3/launch.sh
    ```
+### Essential Keybinds
+
+| Keybind | Action |
+|---------|--------|
+| <kbd>SUPER</kbd> + <kbd>X</kbd> | Open terminal (alacritty, if you use other terminal, change it in .config/i3/config) |
+| <kbd>SUPER</kbd> + <kbd>R</kbd> | Launch rofi (App Launcher) |
+| <kbd>SUPER</kbd> + <kbd>Q</kbd> | Close window |
+| <kbd>SUPER</kbd> + <kbd>1-9</kbd> | Switch to tag (workspace) |
+| <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>1-9</kbd> | Move window to tag |
+| <kbd>SUPER</kbd> + <kbd>Space</kbd> | Toggle floating |
+| <kbd>SUPER</kbd> + <kbd>Shift</kbd> + <kbd>Q</kbd> | Quit i3 session |
+| <kbd>SUPER</kbd> + <kbd>Ctrl</kbd> + <kbd>Q</kbd> | Power menu |
+---
 
 Launch i3 from your display manager (SDDM, GDM, LightDM, Ly etc.) and enjoy.
