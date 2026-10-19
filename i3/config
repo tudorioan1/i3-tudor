@@ -227,3 +227,6 @@ bindsym $mod+p mode "resize"
 #        position top
 #        status_command i3status -c ~/.config/i3status/i3status.conf
 #}
+# window rules
+for_window [title="^wallpaper-picker$"] floating enable
+# ..., add your own
