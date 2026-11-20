@@ -88,7 +88,7 @@ bindsym $mod+e exec thunar
 bindsym $mod+v exec "virsh -c qemu:///system start win11-passthrough 2>/dev/null || true; sleep 1; looking-glass-client -F"
 bindsym $mod+w exec "looking-glass-client -F"
 # start web browser
-bindsym $mod+b exec brave-origin
+bindsym $mod+b exec firefox
 
 # kill focused window
 bindsym $mod+q kill
